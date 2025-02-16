@@ -1,21 +1,20 @@
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
 [project]
-name = "loading_v1_ValidIdiot"
-version = "0.0.1"
-authors = [
-  { name="Jerraf2p0", email="invalid@example.com"},
-]
-description = "A simple loading bar module for terminals."
-readme = "README.md"
-requires-python = ">=3.8"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "Operating System :: OS Independent",
-]
+name = "loading"
+version = "0.1.0"
+description = "A module that contains functions for creating and managing loading bars."
+authors = [{ name = "Jerraf2p0", email = "invalid@example.com" }]
 license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "colorama",
+]
 
 [project.urls]
-Homepage = "https://github.com/ValidIdiot/loading-v1"
+Homepage = "https://valididiot.github.io/loading-v1"
+Repository = "https://github.com/ValidIdiot/loading-v1"
 Issues = "https://github.com/ValidIdiot/loading-v1/issues"

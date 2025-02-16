@@ -1,4 +1,4 @@
-from src import LoadingBar
+from loading import LoadingBar
 import time
 
 # Make a default function to be called when the loading is complete
